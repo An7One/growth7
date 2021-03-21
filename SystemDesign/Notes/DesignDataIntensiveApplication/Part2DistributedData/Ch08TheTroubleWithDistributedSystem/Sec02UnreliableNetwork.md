@@ -6,5 +6,6 @@
 ### Detecting Faults
 
 ### Timeouts and Unbounded Delays
+#### Network congestin and queueing
 
 ### Synchronous v.s. Asynchronous Networks
