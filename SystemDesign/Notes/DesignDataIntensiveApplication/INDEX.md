@@ -28,6 +28,7 @@
 | linearizability                 | 0323             |
 | logical log                     | 0160             |
 | immediate consistency           | 0322             |
+| map-side join                   | 0408             |
 | network congestion              | 0282             |
 | Network Time Protocol (NTP)     | 0288             |
 | nondeterminstic                 | 0275             |
@@ -38,13 +39,16 @@
 | read-after-write consistency    | 0163             |
 | read-your-writes consitency     | 0163             |
 | recency guarantee               | 0322             |
+| reducer-side join               | 0408             |
 | register                        | 0325             |
 | replica                         | 0152             |
 | replication lag                 | 0162             |
+| sessionization                  | 0407             |
 | scalability                     | 0199             |
 | semi-synchronous                | 0155             |
 | sharding                        | 0199             |
 | shared-nothing systems          | 0277             |
+| shuffle                         | 0402             |
 | sibilings                       | 0190             |
 | sloppy quorum                   | 0183             |
 | split brains                    | 0158             |
