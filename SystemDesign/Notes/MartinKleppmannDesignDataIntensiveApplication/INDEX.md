@@ -30,6 +30,7 @@
 | flow control                        | 278           |
 | high-performance computing(HPC)     | 275           |
 | hinted handoff                      | 184           |
+| horizontal scaling                  | 146           |
 | lateches (lightweight locks)        | 082           |
 | leader-based replication            | 152           |
 | linearizability                     | 323           |
@@ -58,8 +59,11 @@
 | row-oriented                        | 096           |
 | sessionization                      | 407           |
 | scalability                         | 199           |
+| scaling out                         | 146           |
 | semi-synchronous                    | 155           |
 | sharding                            | 199           |
+| shared-disk architecture            | 146           |
+| shared-memory architecture          | 146           |
 | shared-nothing systems              | 277           |
 | shuffle                             | 402           |
 | sibilings                           | 190           |
@@ -76,5 +80,6 @@
 | transaction processing              | 090           |
 | unbounded delays                    | 282           |
 | vectorized processing               | 099           |
+| vertical scaling                    | 146           |
 | vesion vectors                      | 177           |
 | write-ahead log (WAL)               | 082           |

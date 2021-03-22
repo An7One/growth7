@@ -1,6 +1,7 @@
-# Chapter 05, Replication
 
-### Summary
+
+# Chapter 05, Replication
+## Summary
 Replication can serve several purposes:
 <ul>
     <li>High availability</li>
