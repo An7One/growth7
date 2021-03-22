@@ -3,7 +3,11 @@
 
 ### Column Compression
 
+#### Memory bandwidth and vectorized processing
+
 ### Sort Order in Column Storage
+
+#### Several different sort orders
 
 ### Writing to Column-Oriented Storage
 

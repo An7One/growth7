@@ -1,60 +1,80 @@
 
-| key word                        | pages            |
-| ------------------------------- | ---------------- |
-| admission control               | 0285             |
-| asynchronous packet networks    | 0278             |
-| atomic consistency              | 0322             |
-| backpressure                    | 0281             |
-| bounded delay                   | 0285             |
-| bursty traffic                  | 0285             |
-| causal context                  | 0191             |
-| chain replication               | 0155             |
-| change data capture             | 0161             |
-| cloud computing                 | 0275             |
-| circuit                         | 0283             |
-| congestion avoidance            | 0281             |
-| consistent prefix reads         | P0166            |
-| consensus                       | 0155             |
-| convergence                     | 0322             |
-| deterministic                   | 0274             |
-| dotted version vector           | 0191             |
-| eventual consistency            | 0152, 0162, 0322 |
-| external consistency            | 0322             |
-| failover                        | 0157             |
-| flow control                    | 0278             |
-| high-performance computing(HPC) | 0275             |
-| hinted handoff                  | 0184             |
-| leader-based replication        | 0152             |
-| linearizability                 | 0323             |
-| logical log                     | 0160             |
-| immediate consistency           | 0322             |
-| map-side join                   | 0408             |
-| network congestion              | 0282             |
-| Network Time Protocol (NTP)     | 0288             |
-| nondeterminstic                 | 0275             |
-| partial failure                 | 0275             |
-| partition                       | 0199             |
-| quality of service              | 0286             |
-| read scaling                    | 0161             |
-| read-after-write consistency    | 0163             |
-| read-your-writes consitency     | 0163             |
-| recency guarantee               | 0322             |
-| reducer-side join               | 0408             |
-| register                        | 0325             |
-| replica                         | 0152             |
-| replication lag                 | 0162             |
-| sessionization                  | 0407             |
-| scalability                     | 0199             |
-| semi-synchronous                | 0155             |
-| sharding                        | 0199             |
-| shared-nothing systems          | 0277             |
-| shuffle                         | 0402             |
-| sibilings                       | 0190             |
-| sloppy quorum                   | 0183             |
-| split brains                    | 0158             |
-| strong consistency              | 0322             |
-| synchronous                     | 0285             |
-| tiggers and stored procedures   | 0161             |
-| timeout                         | 0279             |
-| unbounded delays                | 0282             |
-| vesion vectors                  | 0177             |
+| key word                            | pages         |
+| ----------------------------------- | ------------- |
+| admission control                   | 285           |
+| asynchronous packet networks        | 278           |
+| atomic consistency                  | 322           |
+| backpressure                        | 281           |
+| bitmap encoding                     | 097           |
+| bounded delay                       | 285           |
+| bursty traffic                      | 285           |
+| causal context                      | 191           |
+| chain replication                   | 155           |
+| change data capture                 | 161           |
+| cloud computing                     | 275           |
+| circuit                             | 283           |
+| compaction                          | 073           |
+| column-oriented                     | 096           |
+| congestion avoidance                | 281           |
+| consistent prefix reads             | 166           |
+| consensus                           | 155           |
+| convergence                         | 322           |
+| data warehouse                      | 092           |
+| deterministic                       | 274           |
+| dimensional modeling                | 093           |
+| dotted version vector               | 191           |
+| eventual consistency                | 152, 162, 322 |
+| external consistency                | 322           |
+| Extract-Transform-Load(ETL)         | 092           |
+| failover                            | 157           |
+| flow control                        | 278           |
+| high-performance computing(HPC)     | 275           |
+| hinted handoff                      | 184           |
+| lateches (lightweight locks)        | 082           |
+| leader-based replication            | 152           |
+| linearizability                     | 323           |
+| log-structured                      | 070           |
+| log-structured merged-tree(LSMTree) | 078           |
+| logical log                         | 160           |
+| immediate consistency               | 322           |
+| map-side join                       | 408           |
+| memtable                            | 078           |
+| network congestion                  | 282           |
+| Network Time Protocol (NTP)         | 288           |
+| nondeterminstic                     | 275           |
+| non-volatile memory(NVM)            | 090           |
+| page-oriented                       | 070           |
+| partial failure                     | 275           |
+| partition                           | 199           |
+| quality of service                  | 286           |
+| read scaling                        | 161           |
+| read-after-write consistency        | 163           |
+| read-your-writes consitency         | 163           |
+| recency guarantee                   | 322           |
+| reducer-side join                   | 408           |
+| register                            | 325           |
+| replica                             | 152           |
+| replication lag                     | 162           |
+| row-oriented                        | 096           |
+| sessionization                      | 407           |
+| scalability                         | 199           |
+| semi-synchronous                    | 155           |
+| sharding                            | 199           |
+| shared-nothing systems              | 277           |
+| shuffle                             | 402           |
+| sibilings                           | 190           |
+| sloppy quorum                       | 183           |
+| snowflake schema                    | 095           |
+| sorted string table (SSTable)       | 076           |
+| split brains                        | 158           |
+| star schema                         | 093           |
+| strong consistency                  | 322           |
+| synchronous                         | 285           |
+| tiggers and stored procedures       | 161           |
+| timeout                             | 279           |
+| transaction                         | 090           |
+| transaction processing              | 090           |
+| unbounded delays                    | 282           |
+| vectorized processing               | 099           |
+| vesion vectors                      | 177           |
+| write-ahead log (WAL)               | 082           |

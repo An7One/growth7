@@ -3,4 +3,6 @@
 
 ### Data Warehousing
 
+#### The divergence between OLTP databases and data warehosues
+
 ### Stars and Snowflakes: Schemas for Analytics
