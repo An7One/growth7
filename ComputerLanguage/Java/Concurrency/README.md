@@ -1,3 +1,12 @@
+# Java
+
+### TODO:
+<ul>
+    <li>Concurrency (分布式锁)</li>
+    <li>Design Pattern</li>
+    <li>JVM (GC, ClassLoaders, 内存屏障</li>
+</ul>
+
 ### CAS: Compare and Swap
 
 ##### Resource
