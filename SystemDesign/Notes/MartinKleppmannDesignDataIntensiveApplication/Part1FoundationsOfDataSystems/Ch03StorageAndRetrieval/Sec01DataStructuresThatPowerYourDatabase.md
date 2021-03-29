@@ -2,6 +2,14 @@
 ## Section 01, Data Structures That Power Your Database
 
 ### Hash Indexes
+#### Issues important in real implementations
+<ul>
+    <li>File format</li>
+    <li>Deleting records</li>
+    <li>Crash recovery</li>
+    <li>Partially written records</li>
+    <li>Concurrency control</li>
+</ul>
 
 ### SSTables and LSM-Trees
 
