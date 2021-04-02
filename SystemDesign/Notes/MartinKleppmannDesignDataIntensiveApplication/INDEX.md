@@ -20,6 +20,7 @@
 | cloud computing                                              | 275           |
 | circuit                                                      | 283           |
 | compaction                                                   | 073           |
+| consensus                                                    | 321           |
 | column-oriented                                              | 096           |
 | concatenated index                                           | 087           |
 | congestion avoidance                                         | 281           |
@@ -114,6 +115,7 @@
 | synchronous                                                  | 285           |
 | tiggers and stored procedures                                | 161           |
 | timeout                                                      | 279           |
+| tolerating faults                                            | 321           |
 | transaction                                                  | 090           |
 | transaction processing                                       | 090           |
 | two-phase commit                                             | 354           |

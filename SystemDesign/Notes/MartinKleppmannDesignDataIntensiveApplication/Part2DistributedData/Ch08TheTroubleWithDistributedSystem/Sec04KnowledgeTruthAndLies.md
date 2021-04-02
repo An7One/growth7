@@ -6,3 +6,9 @@
 ### Byzantine Faults
 
 ### System Model and Reality
+
+#### Correctness of an algorithm
+
+#### Safety and liveness
+
+#### Mapping system models to the real world

@@ -6,6 +6,9 @@
 ### Detecting Faults
 
 ### Timeouts and Unbounded Delays
-#### Network congestin and queueing
+
+### Network congestion and queueing
 
 ### Synchronous v.s. Asynchronous Networks
+
+#### Can we not simply make network delays predictable
