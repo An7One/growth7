@@ -7,6 +7,18 @@ To make a system appear as if there is only a single copy of the data, and all o
 
 ### Relying on Linearizability
 
+#### Locking and leader election
+
+#### Constraints and uniqueness guarantees
+
+#### Cross-channel timing dependencies
+
 ### Implementing Lineariable Systems
 
+#### Linearizability and quorums
+
 ### The Cost of Linearizability
+
+#### The CAP theorem
+
+#### Linearizability and network delays

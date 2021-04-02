@@ -14,6 +14,8 @@
 | bounded delay                                                | 285           |
 | bursty traffic                                               | 285           |
 | causal context                                               | 191           |
+| causality                                                    | 339           |
+| causal dependecy                                             | 339           |
 | chain replication                                            | 155           |
 | change data capture                                          | 161           |
 | clustered index                                              | 086           |
@@ -56,8 +58,9 @@
 | logical log                                                  | 160           |
 | lost update                                                  | 243           |
 | immediate consistency                                        | 322           |
-| invariants                                                   | 225           |
+| incomparable                                                 | 341           |
 | index-range locking                                          | 260           |
+| invariants                                                   | 225           |
 | isolation                                                    | 225           |
 | map-side join                                                | 408           |
 | marshalling                                                  | 113           |
@@ -111,11 +114,13 @@
 | split brains                                                 | 158           |
 | staged rollout                                               | 112           |
 | star schema                                                  | 093           |
+| state machine replication                                    | 349           |
 | strong consistency                                           | 322           |
 | synchronous                                                  | 285           |
 | tiggers and stored procedures                                | 161           |
 | timeout                                                      | 279           |
 | tolerating faults                                            | 321           |
+| total order                                                  | 341           |
 | transaction                                                  | 090           |
 | transaction processing                                       | 090           |
 | two-phase commit                                             | 354           |
