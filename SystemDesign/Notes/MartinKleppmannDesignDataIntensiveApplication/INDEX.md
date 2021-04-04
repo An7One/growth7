@@ -64,7 +64,9 @@
 | isolation                                                    | 225           |
 | map-side join                                                | 408           |
 | marshalling                                                  | 113           |
+| materializing conflicts                                      | 251           |
 | memtable                                                     | 078           |
+| multi-put                                                    | 230           |
 | multi-version concurrency control (MVCC)                     | 239           |
 | mutual exclusion                                             | 261           |
 | network congestion                                           | 282           |
@@ -106,7 +108,7 @@
 | shared-memory architecture                                   | 146           |
 | shared-nothing systems                                       | 277           |
 | shuffle                                                      | 402           |
-| sibilings                                                    | 190           |
+| sibilings                                                    | 190, 246      |
 | sloppy quorum                                                | 183           |
 | snapshot isolation                                           | 222, 238      |
 | snowflake schema                                             | 095           |
@@ -122,6 +124,7 @@
 | tolerating faults                                            | 321           |
 | total order                                                  | 341           |
 | transaction                                                  | 090           |
+| transaction isolation                                        | 233           |
 | transaction processing                                       | 090           |
 | two-phase commit                                             | 354           |
 | unbounded delays                                             | 282           |
