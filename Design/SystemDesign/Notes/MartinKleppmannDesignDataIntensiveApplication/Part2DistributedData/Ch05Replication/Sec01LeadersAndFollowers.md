@@ -12,6 +12,7 @@
 ### Setting up New Followers
 
 #### Conceptual Steps
+
 <ol>
     <li>to take a consistent snapshot of the leader's database if possible, without taking a lock on the entire database</li>
     <li>to copy the snapshot to the new follower node</li>
@@ -22,15 +23,18 @@
 
 
 ### Handling Node Outages
+
 <p>Being able to reboot individual nodes without downtime is a big advantage for operations and maintenance.</p>
 <p>The goal is </p>
 <ul><li>to keep the system as a whole running despite individual node failure</li>
 <li>to keep the impact of a node outage as small as possible</li></ul></p>
 
 #### Follower Failure: Catch-up Recovery
+
 On its local disk, each follower keeps a log of the data changes it has received from the leader.
 
 #### Leader Failure: Failover
+
 Failover can happen mannually or automatically. An automatic failover process usually consists of the following steps:
 <ol>
     <li>to determine that the leader has failed</li>
@@ -47,9 +51,11 @@ Failover is fraught with thigns that can go wrong:
 </ul>
 
 ### Implementation of Replication Logs
-<ul>
-    <li>State-based replication</li>
-    <li>Write-ahead log(WAL) shipping</li>
-    <li>Logical (row-based) replication</li>
-    <li>Trigger-based replication</li>
-</ul>
+
+#### Statement-based replication
+
+#### Write-ahead log(WAL) shipping
+
+#### Logical (row-based) replication
+
+#### Trigger-based replication

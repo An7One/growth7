@@ -1,5 +1,6 @@
 # Chapter 05, Replication
 ## Introduction
+
 There are various reasons why one might want to distribute a data across multiple mathines:
 <ul>
     <li>Scalability</li>
