@@ -2,6 +2,7 @@
 ## Section 02, MapReduce and Distributed Filesystems
 
 ### MapReduce Job Execution
+
 2 callback functions
 <ol>
     <li>Mapper</li>
