@@ -18,6 +18,7 @@ A <i>data warehouse</i> is a separate database that analysts can query to their 
 #### The divergence between OLTP databases and data warehosues
 
 ### Stars and Snowflakes: Schemas for Analytics
+
 | schema    | description                                                                                                                                                                    |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | star      | when the table relationships are visualized, the fact table is in the middle, surrounded by its dimension tables; the connections to these tables are like the rays of a star. |
