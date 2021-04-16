@@ -2,7 +2,13 @@
 ## Section 01, Data Structures That Power Your Database
 
 ### Hash Indexes
+
+Compaction means throwing away duplicate keys in the log, and keeping only the most recent update for each key.
+
+Moreoever, since compaction often makes segments much smaller, one can also merge several segments together at the same time as performing the compaction.
+
 #### Issues important in real implementations
+
 <ul>
     <li>File format</li>
     <li>Deleting records</li>
@@ -18,6 +24,8 @@
 #### Making an LSM-tree out of SSTables
 
 #### Performance optimizations
+
+Bloom filter, a memory-efficient data structure for approximating the contents of a set.
 
 ### B-Trees
 
