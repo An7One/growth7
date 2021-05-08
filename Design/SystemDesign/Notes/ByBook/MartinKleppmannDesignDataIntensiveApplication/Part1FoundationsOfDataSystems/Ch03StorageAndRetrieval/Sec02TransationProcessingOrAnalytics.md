@@ -1,5 +1,6 @@
-# Chapter 03, Storage and Retrieval
-## Section 02, Transaction Processing or Analytics?
+# Chapter 03 Storage and Retrieval
+
+## Section 02 Transaction Processing or Analytics?
 
 | Property             | Transaction Processing Systems (OLTP)             | Online Analytic Systems (OLAP)            |
 | -------------------- | ------------------------------------------------- | ----------------------------------------- |

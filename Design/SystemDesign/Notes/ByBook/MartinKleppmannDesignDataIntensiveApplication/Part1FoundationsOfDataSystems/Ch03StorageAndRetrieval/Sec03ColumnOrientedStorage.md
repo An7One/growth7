@@ -1,5 +1,6 @@
-# Chapter 03, Storage and Retrieval
-## Section 03, Column-Oriented Storage
+# Chapter 03 Storage and Retrieval
+
+## Section 03 Column-Oriented Storage
 
 Column-oriented storage: do not store all the values from one row together, but store all the values from each <i>column</i> together instead.
 

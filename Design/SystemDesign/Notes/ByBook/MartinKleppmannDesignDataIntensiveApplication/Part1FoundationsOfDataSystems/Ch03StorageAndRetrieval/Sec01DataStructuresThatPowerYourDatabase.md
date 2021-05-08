@@ -1,5 +1,6 @@
-# Chapter 03, Storage and Retrieval
-## Section 01, Data Structures That Power Your Database
+# Chapter 03 Storage and Retrieval
+
+## Section 01 Data Structures That Power Your Database
 
 ### Hash Indexes
 

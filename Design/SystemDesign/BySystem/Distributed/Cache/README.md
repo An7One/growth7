@@ -107,3 +107,7 @@
 [8bitmen](https://www.8bitmen.com/distributed-cache-101-the-only-guide-youll-ever-need/) Distributed Cache 101
 
 [Youtube](https://youtu.be/UH7wkvcf0ys) Facebook and memcached - Tech Talk
+
+[Youtube](https://youtu.be/0zjSb0AYMJM) - Scaling Memcache at Facebook(1)
+
+[Youtube](https://youtu.be/rGu0wJTkIr8) - Scaling Memcache at Facebook(2)

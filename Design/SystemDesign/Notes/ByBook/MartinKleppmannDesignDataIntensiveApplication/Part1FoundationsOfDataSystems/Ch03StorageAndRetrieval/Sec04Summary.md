@@ -1,3 +1,3 @@
 # Chapter 03 Storage and Retrieval
 
-## Section 00 Introduction
+## Section 04 Summary

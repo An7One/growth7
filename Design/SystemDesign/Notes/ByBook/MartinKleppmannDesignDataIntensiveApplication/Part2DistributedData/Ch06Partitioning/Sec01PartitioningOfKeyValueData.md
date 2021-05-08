@@ -1,5 +1,6 @@
-# Chapter 06, Partitioning
-## Section 01, Partitioning of Key-Value Data
+# Chapter 06 Partitioning
+
+## Section 01 Partitioning of Key-Value Data
 
 ### Partitioning by Key Range
 
