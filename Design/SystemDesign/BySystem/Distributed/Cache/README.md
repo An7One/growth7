@@ -105,3 +105,5 @@
 [Medium](https://medium.com/rtkal/distributed-cache-design-348cbe334df1) Distributed Cache Design
 
 [8bitmen](https://www.8bitmen.com/distributed-cache-101-the-only-guide-youll-ever-need/) Distributed Cache 101
+
+[Youtube](https://youtu.be/UH7wkvcf0ys) Facebook and memcached - Tech Talk
