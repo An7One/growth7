@@ -1,5 +1,14 @@
 # Distributed Cache
 
+### Why to Apply Cache?
+
+<ol>
+    <li>to decrease latency</li>
+    <li>to prevent DB from being overloaded</li>
+    <li>throughput: to satisfy hundreds of requests per page or millions of requests per second</li>
+    <li>to support heterogeneous data sources/applications</li>
+</ol>
+
 ### Requirements
 
 #### Functional
@@ -16,8 +25,10 @@
 
 <ul>
     <li>Scalablibility</li>
+    <li>Adequate Consistency</li>
     <li>High Availability</li>
     <li>Fault-tolerance</li>
+    <li>Tractable Operational Complexity</li>
 </ul>
 
 
