@@ -2,7 +2,6 @@
 
 ### Requirement
 
-
 ### Algorithm
 
 #### Leaky Bucket
@@ -12,6 +11,8 @@ FIFO
 #### Fixed Window
 
 #### Sliding Log
+
+#### Bucket Token
 
 to track timestamp
 
@@ -26,7 +27,19 @@ to track timestamp
 latency
 
 
+#### Message Broadcasting
+
+<ul>
+    <li>Tell everyone everything</li>
+    <li>Gossip communication</li>
+    <li>Distributed cache</li>
+    <li>Coordination service</li>
+    <li>Random leader selection</li>
+</ul>
+
+
 ### Reference
+
 [Youtube](https://youtu.be/FU4WlwfS3G0) System Design Interview - Rate Limiting (local and distributed)
 
 [GitHub Blog](https://github.blog/2021-04-05-how-we-scaled-github-api-sharded-replicated-rate-limiter-redis/) How we scaled the GitHub API with a sharded, replicated rate limiter in Redis
