@@ -1,8 +1,5 @@
 # Cache
 
-
-
-
 ### Comparison
 
 #### Redis vs Memcached
@@ -17,4 +14,4 @@
 
 [PalPark](https://palpark.me/collections/5fe447d95c5827d65afcb2a4) - How to scale cache in data intensive distributed systems?
 
-20160917 - [Youtube](https://youtu.be/Rzdxgx3RC0Q) - "Caching at Netflix: The Hidden Microservice" by Scott Mansfield
+[Youtube 20160917](https://youtu.be/Rzdxgx3RC0Q) - "Caching at Netflix: The Hidden Microservice" by Scott Mansfield
