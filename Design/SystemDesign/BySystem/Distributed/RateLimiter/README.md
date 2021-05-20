@@ -4,19 +4,19 @@
 
 ### Algorithm
 
+#### Token Bucket
+
 #### Leaky Bucket
 
 FIFO
 
 #### Fixed Window
 
-#### Sliding Log
-
-#### Bucket Token
+#### Sliding Window Log
 
 to track timestamp
 
-#### Sliding Window
+#### Sliding Window Counter
 
 ### Synchronization Policy
 
