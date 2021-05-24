@@ -121,3 +121,7 @@
 [Youtube](https://youtu.be/fT4ogDNWsi0) - System Design-cache/系统设计-缓存/Redis: 理论与实践(基础)
 
 [Youtube](https://youtu.be/YPtPz8I4c6U) - System Design-cache/系统设计-缓存/Redis: 理论与实践(进阶)
+
+[WeChat Post](https://mp.weixin.qq.com/s/qGfAuS0e8dV77SRI3O3Q_w) - Redis 官方的高可用性解决方案
+
+[cnblog](https://www.cnblogs.com/bingshu/p/9776610.html) - Redis（二）冰叔带你了解Redis-哨兵模式和高可用集群解析

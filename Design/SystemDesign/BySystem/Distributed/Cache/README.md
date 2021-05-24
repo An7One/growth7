@@ -31,7 +31,6 @@
     <li>Tractable Operational Complexity</li>
 </ul>
 
-
 #### What else is important
 
 <ul>
@@ -122,3 +121,5 @@
 [Youtube](https://youtu.be/0zjSb0AYMJM) - Scaling Memcache at Facebook(1)
 
 [Youtube](https://youtu.be/rGu0wJTkIr8) - Scaling Memcache at Facebook(2)
+
+[WeCha Post](https://mp.weixin.qq.com/s/aUTt4aEo7u3KKcNBNtcNyQ) - 如何保证缓存与数据库的双写一致性？
