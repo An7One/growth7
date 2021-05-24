@@ -125,3 +125,5 @@
 [WeChat Post](https://mp.weixin.qq.com/s/qGfAuS0e8dV77SRI3O3Q_w) - Redis 官方的高可用性解决方案
 
 [cnblog](https://www.cnblogs.com/bingshu/p/9776610.html) - Redis（二）冰叔带你了解Redis-哨兵模式和高可用集群解析
+
+[StikeFreedom](https://strikefreedom.top/multiple-threaded-network-model-in-redis) - Redis多线程网络模型全面揭秘

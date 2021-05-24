@@ -22,19 +22,21 @@
 
 ### Algorithm
 
-#### Token Bucket
+<ul>
+    <li>Token bucket</li>
+    <li>Leaky bucket</li>
+    <li>Sliding log</li>
+    <li>Fixed window</li>
+    <li>Sliding window</li>
+</ul>
 
-#### Leaky Bucket
+### Distributed Rate Limiter
 
-FIFO
-
-#### Fixed Window
-
-#### Sliding Window Log
-
-to track timestamp
-
-#### Sliding Window Counter
+<ul>
+    <li>Load balancer</li>
+    <li>Central storage, eg. Redis</li>
+    <li>Optimized way based on central storage</li>
+</ul>
 
 ### Synchronization Policy
 
@@ -63,3 +65,9 @@ latency
 [konghq](https://konghq.com/blog/how-to-design-a-scalable-rate-limiting-algorithm/) How to Design a Scalable Rate Limiting Algorithm
 
 [Google Cloud](https://cloud.google.com/architecture/rate-limiting-strategies-techniques) - Rate-Limiting strategies and technique
+
+[Stripe Engineering Blog](https://stripe.com/blog/rate-limiters) - Scaling your API with rate limiters, by Paul Tarjan
+
+[Github Engineering Blog](https://github.blog/2021-04-05-how-we-scaled-github-api-sharded-replicated-rate-limiter-redis/) - How we scaled the GitHub API with a sharded, replicated rate limiter in Redis, by Robert Mosolgo
+
+[src](https://guanhonly.github.io/2020/05/30/distributed-rate-limiter/) - 如何设计一个分布式限流器(distributed rate limiter)
