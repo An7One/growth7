@@ -9,3 +9,7 @@ Automatic Conflict Resolution
     <li>Mergeable persistent data structures</li>
     <li>Operational transformation</li>
 </ul>
+
+### Reference
+
+[LinkedIn](https://www.linkedin.com/pulse/system-design-google-docs-rahul-arram/?articleId=6678948616566132736) - System Design for Google Doc
