@@ -78,4 +78,24 @@ Kubeadmin does not deploy Kubelets
 
 // to view pods in all namespaces
 > kubectl get pods --all-namespaces
+
+// used in the quiz
+> kubectl get ns --no-headers | wc -l
+> kubectl -n research get pods --no-headers
+> kubectl run redis --image=redis --dry-run=client -o yaml > pod.yaml
+> kubectl get pods --all-namespaces | grep blue
+> kubectl -n dev get svc
 ```
+
+### Services
+
+```
+> kubectl get svc
+> kubectl create -f service-definition.yml
+> kubectl get services
+> kubectl expose deployment simple-webapp-deployment --name=webapp-service --target-port=8080 --type=NodePort --port=8080 --dry-run=client -o yaml > svc.yaml
+```
+
+### Service Cluster IP
+
+### Services - Loadbalancer
