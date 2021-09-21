@@ -66,6 +66,11 @@ Kubeadmin does not deploy Kubelets
 ```
 // only list the pods in the default namespace
 > kubectl get pods
+
+// to create the namespace
+> kubectl create namespace dev-ns
+> kubectl create ns dev-ns
+
 // list the pods in the namespace "kube-system"
 > kubectl get pods --namespace=kube-system
 > kubectl create -f pod-definition.yml --namespace-dev
@@ -94,6 +99,8 @@ Kubeadmin does not deploy Kubelets
 > kubectl create -f service-definition.yml
 > kubectl get services
 > kubectl expose deployment simple-webapp-deployment --name=webapp-service --target-port=8080 --type=NodePort --port=8080 --dry-run=client -o yaml > svc.yaml
+
+> kubectl run httpd --image=httpd:alpine --port=80 --expose
 ```
 
 ### Service Cluster IP
