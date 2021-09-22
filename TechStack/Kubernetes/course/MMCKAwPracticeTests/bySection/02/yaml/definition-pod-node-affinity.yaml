@@ -1,0 +1,19 @@
+apiVersion:
+kind:
+
+metadata:
+  name: myapp-pod
+spec:
+  containers:
+    - name: data-processor
+      image: data-processor
+
+  affirnity:
+    nodeAffinity:
+      requiredDuringSchedulingIgnoreDuringExecution:
+        nodeSelectorTerm:
+          - matchExpressions:
+              - key: size
+                operator: In
+                values:
+                  - Large
