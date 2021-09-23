@@ -73,3 +73,31 @@ kubectl -n kube-system get pods
 
 > kubectl create deployment elasticsearch --image=k8s.gcr.io/fluentd-elasticsearch:1.20 -n kube-system --dry-run=client -o yaml > fluentd.yaml
 ```
+
+### Static Pods
+
+<table>
+    <thead>
+        <tr>
+            <th>Static PODs</th>
+            <th>DaemonSets</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Created by tde Kubelet</td>
+            <td>Created by Kube-API server (DaemonSet Controller)</td>
+        </tr>
+        <tr>
+            <td>Depoy Control Plane components as Static Pods</td>
+            <td>Deploy Monitoring Agents, Logging Agents on nodes</td>
+        </tr>
+        <tr>
+            <td colspan=2>Ignored by the Kube-Scheduler</td>
+        </tr>
+    </tbody>
+</table>
+
+```
+> kubectl run --restart=Never --image=busybox static-busybox --dry-run=client -o yaml --command -- sleep 1000 > /etc/kubernetes/manifests/static-busybox.yaml
+```
