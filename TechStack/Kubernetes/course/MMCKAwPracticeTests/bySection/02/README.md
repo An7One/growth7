@@ -101,3 +101,13 @@ kubectl -n kube-system get pods
 ```
 > kubectl run --restart=Never --image=busybox static-busybox --dry-run=client -o yaml --command -- sleep 1000 > /etc/kubernetes/manifests/static-busybox.yaml
 ```
+
+### Multiple Schedulers
+
+```
+> kubectl get pods --namespace=kube-system
+
+> kubectl logs my-custom-scheduler --name-space=kube-system
+
+> kubectl -n kube-system describe pod kube-scheduler-master | grep Image
+```
