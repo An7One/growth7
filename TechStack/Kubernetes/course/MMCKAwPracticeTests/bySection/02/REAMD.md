@@ -1,3 +1,5 @@
+## Section 02 Core Concepts
+
 ### ETCD
 
 ETCD is a distributed reliable key-value store that is simple, secure and fast.
