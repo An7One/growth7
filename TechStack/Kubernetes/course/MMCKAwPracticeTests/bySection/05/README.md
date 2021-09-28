@@ -30,3 +30,11 @@
 ### Commands
 
 ### Commands and Arguments
+
+### Configure Environment Variables in Applications
+
+```
+> docker run -e APP_COLOR=pink simple-webapp-color
+
+> kubectl create configmap webapp-config-map --from-literal=APP_COLOR=darkblue
+```
