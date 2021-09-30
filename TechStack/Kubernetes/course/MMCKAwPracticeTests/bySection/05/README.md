@@ -61,6 +61,12 @@
 
 > kubectl get secret app-secret -o yaml
 
+> kubectl -n elastic-stack exec -it app -- cat /log/app.log
+
+> kubectl run yellow --image=busybox --restart=Never --dry-run -o yaml > pod.yaml
+
+> kubectl -n elastic-stack get pod,svc
+
 // Linux commands to encode the input
 > echo -n 'mysql' | base64
 > echo -n 'root' | base64
