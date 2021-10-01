@@ -67,6 +67,8 @@
 
 > kubectl -n elastic-stack get pod,svc
 
+> kubectl get pod orange -o yaml > /root/pod-orange.yaml
+
 // Linux commands to encode the input
 > echo -n 'mysql' | base64
 > echo -n 'root' | base64
