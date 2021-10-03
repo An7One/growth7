@@ -41,3 +41,32 @@ API Changes - [Github](https://github.com/kubernetes/community/blob/master/contr
 > apt install kubelet=1.20.0-00
 > systemctl restart kubelet
 ```
+
+### Backup and Restore Methods
+
+```
+// ETCD Cluster
+> etcdctl snapshot save snapshot.db
+
+> etcdctl snapshot status snapshot.db
+
+> etcdctl snapshot restore snapshot.db --data-dir /var/lib/etcd-from-backup
+
+> etcdctl snapshot save snapshot.db \
+  --endpoints=https://127.0.0.1:2379 \
+  --cacert=/etc/etcd/ca.crt \
+  --cert=/etc/etcd/etcd-server.crt \
+  --key=/etc/etcd/etcd-server.key
+
+// Linux Commands
+> systemctl daemon-reload
+
+> service etcd restart
+```
+
+```
+// etcd.service
+ExecStart=/usr/local/bin/etcd \\
+// to be continued
+...
+```
