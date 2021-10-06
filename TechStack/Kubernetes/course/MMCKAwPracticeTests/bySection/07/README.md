@@ -30,3 +30,15 @@ Kube API Server
 - kubernetes.default 172.17.0.87
 - kubernetes.default.svc
 - kubernetes.default.svc.cluster.local
+
+### View Certificate Details
+
+```
+> journalctl -u etcd.service -l
+
+> kubectl logs etcd-master
+```
+
+Reference:
+
+- kubernetes-the-hard-way - [github](https://github.com/mmumshad/kubernetes-the-hard-way/tree/master/tools)
