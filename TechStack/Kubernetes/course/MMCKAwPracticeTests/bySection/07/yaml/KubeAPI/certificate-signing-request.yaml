@@ -1,0 +1,23 @@
+apiVersion: certificates.k8s.io/v1
+kind: CertificateSigningRequest
+metadata:
+  name: leon
+spec:
+  groups:
+    - system:authenticated
+  request: MIICVjCCAT4CAQAwETEPMA0GA1UEAwwGYWtzaGF5MIIBIjANBgkqhkiG9w0BAQEF
+    AAOCAQ8AMIIBCgKCAQEApQeyXzmMS86oClePqErQTvFLWLe5vT6MJRXPNXgHSoie
+    3YvCz+Q2bphjfjCrP9hJHfU0UF9XuZX8L4gZR0hSeXXTfQHBhNNkXuBJ+PVlANyZ
+    onRlA4tzGfYTJRAnU8FDSV1Oa9A4DywE8ByPB/ibFL1ZWIiqQ+B3hJHogDMKv94t
+    e0+PVtPyjrHWNW/FButxvFRCOh0Z68cTOnD6TJfuXvMlI4cnGBJhkOQyLMMSqtbf
+    ciZUjGGabttXQeLYX+89wZ+JoDUidzFQ53nEmYAJReAlIyKj6GwOfQBCJiNs3MO6
+    NC5pJMnWvF1/1xniiaX8P5iuyBJlilDSEO8JX2F5JQIDAQABoAAwDQYJKoZIhvcN
+    AQELBQADggEBAIw8KP6A/vCWPIzOV8w6qjymhxS8dumxSnYixvk2Z+fj0gYLlHPL
+    F49xuHafCOoTXEcRhA3kAr7H7YyfGNZERLkeZAxfsm0N6XgbxDs4/Q0mqc81AzMr
+    1EiL8AGU/Zs8PgkS/p/OdFSRHB+aNNfcVGZnK1OnAnp3BidZ1LxVAlAvFXHmvwPl
+    AJYp9rHY1UibSTST3qcL4uEoXlwSCb2xnmkmMTbI08nfHPsYD8i6YC6LxFTIyqeJ
+    O0YYaiHqO3ksKyZlckpMlMW/cxh80eZNiPgfTumeLPMRNgFeFn4/9wzstBanw4Qh
+    EL/ewo5rH0LQKFo3Soxi2pRWOUVdx9/y4to=
+  signerName: kubernetes.io/kube-apiserver-client
+  usages:
+    - client auth

@@ -14,6 +14,8 @@
 
 ### TLS in Kubernetes - Certificate Creation
 
+1
+
 ```
 // OpenSSL Commands
 // to generate keys
@@ -42,3 +44,33 @@ Kube API Server
 Reference:
 
 - kubernetes-the-hard-way - [github](https://github.com/mmumshad/kubernetes-the-hard-way/tree/master/tools)
+
+### Certificates API
+
+```
+> kubectl get csr
+
+> kubectl certificate approve jane
+
+> kubectl get csr jane -o yaml
+
+> kubectl get csr agent-smith -o yaml
+
+> kubectl certificate deny agent-smith
+
+> kubectl delete csr agent-smith
+
+// Linux Commands
+> echo "LS0..Qo=" | base64 --decode
+```
+
+### KubeConfig
+
+```
+> kubectl get pods --kubeconfig config
+
+> kubectl config view
+> kubectl config view --kubeconfig=my-custom-config
+
+> kubectl config use-context prod-user@production
+```
