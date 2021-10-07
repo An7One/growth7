@@ -74,3 +74,35 @@ Reference:
 
 > kubectl config use-context prod-user@production
 ```
+
+### API Groups
+
+### Authorization
+
+#### Authorization Mode
+
+- Node
+- ABAC
+- RBAC
+- WebHook
+- Always Allow
+- Always Deny
+
+### RBAC
+
+```
+> kubectl get roles
+
+> kubectl get rolebindings
+
+> kubectl describe role developer
+
+> kubectl describe rolebinding devuser-developer-binding
+
+// to check accesses
+> kubectl auth can-i create deployments
+> kubectl auth can-i delete nodes
+> kubectl auth can-i create deployments --as dev-user
+> kubectl auth can-i create pods --as dev-user
+> kubectl auth can-i create pods --as dev-user --namespace test
+```
