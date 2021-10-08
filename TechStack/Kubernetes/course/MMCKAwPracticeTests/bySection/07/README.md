@@ -106,3 +106,40 @@ Reference:
 > kubectl auth can-i create pods --as dev-user
 > kubectl auth can-i create pods --as dev-user --namespace test
 ```
+
+### Cluster Roles and Role Bindings
+
+```
+> kubectl get clusterroles --no-headers | wc -l
+> kubectl get clusterroles --no-headers -o json | jq '.items | length'
+
+> kubectl get clusterrolebindings --no-headers | wc -l
+> kubectl get clusterrolebindings --no-headers -o json | jq '.items | length'
+
+// namespaced
+> kubectl api-resources --namespaced=true
+
+// cluster scoped
+> kubectl api-resources --na
+
+> kubectl create -f cluster-admin-role.yaml
+> kubectl create -f cluster-admin-role-binding.yaml
+```
+
+### Service Account
+
+```
+> kubectl create serviceacount dashboard-sa
+
+> kubectl get serviceaccount
+
+> kubectl describe serviceaccount dashboard-sa
+
+> kubectl describe secrete dashboard-sa-token-kbbdm
+
+> kubectl get serviceaccount
+
+> kubectl exec -it my-kubernetes-dashboard ls /var/run/secretes/kubernetes.io/serviceaccount
+
+> kubectl exec -it my-kubernetes-dashboard cat /var/run/secrets/kubernetes.io/serviceaccount/token
+```
