@@ -125,3 +125,21 @@ Reference:
 > kubectl create -f cluster-admin-role.yaml
 > kubectl create -f cluster-admin-role-binding.yaml
 ```
+
+### Service Account
+
+```
+> kubectl create serviceacount dashboard-sa
+
+> kubectl get serviceaccount
+
+> kubectl describe serviceaccount dashboard-sa
+
+> kubectl describe secrete dashboard-sa-token-kbbdm
+
+> kubectl get serviceaccount
+
+> kubectl exec -it my-kubernetes-dashboard ls /var/run/secretes/kubernetes.io/serviceaccount
+
+> kubectl exec -it my-kubernetes-dashboard cat /var/run/secrets/kubernetes.io/serviceaccount/token
+```
