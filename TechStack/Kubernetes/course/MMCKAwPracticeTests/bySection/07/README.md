@@ -143,3 +143,28 @@ Reference:
 
 > kubectl exec -it my-kubernetes-dashboard cat /var/run/secrets/kubernetes.io/serviceaccount/token
 ```
+
+### Image Security
+
+```
+// to work in pair with the YAML file
+> kubecl create secret docker-register regcred \
+    --docker-server= \
+    --docker-username= \
+    --docker-password= \
+    --docker-email =
+
+> kubectl create secret docker-registry private-reg-cred --docker-username=docker_user --docker-password=dock_password --docker-server=myprivateregistry.com:5000 --docker-email=docker_user@myprivateregistry.com
+
+> kubectl create secret --help
+
+// docker commands
+> docker login private-registry.io
+> docker run private-registry.io/apps/internal-app
+```
+
+### Security Contexts
+
+```
+> kubectl exec ubuntu-sleeper -- whoami
+```
