@@ -168,3 +168,9 @@ Reference:
 ```
 > kubectl exec ubuntu-sleeper -- whoami
 ```
+
+### Network Policy
+
+| Solutions that support Network Policies | Solutions that do not support Network Policies |
+| --------------------------------------- | ---------------------------------------------- |
+| Kube-router, Calico, Romana, Weave-net  | Flannel                                        |
