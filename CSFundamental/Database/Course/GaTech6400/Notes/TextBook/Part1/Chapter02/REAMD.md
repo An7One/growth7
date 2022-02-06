@@ -1,5 +1,13 @@
 # Chapter 2 Database System Concepts and Architecture
 
+<b>cloud computing</b>
+
+<b>big data</b>
+
+<b>client module</b>
+
+<b>server module</b>
+
 ## 2.1 Data Models, Schemas, and Instances
 
 ### 2.1.1 Categories of Data Models
