@@ -48,6 +48,10 @@ Specialization is the process of defining a set of subclasses of an entity type;
 
 ### 4.7.4 Aggregation and Association
 
+<Aggregation> is an abstraction concept for building composite objects from their component objects.
+
+The abstraction of <b>association</b> is used to associate objects from several <i>independent classes</i>.
+
 ### 4.7.5 Ontologies and the Schematic Web
 
 ## 4.8 Summary
