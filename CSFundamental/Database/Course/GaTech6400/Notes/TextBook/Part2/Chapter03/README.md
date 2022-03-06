@@ -118,6 +118,8 @@ A weak entity type always has a <i>total participation constraint</i> (existence
 
 ### 3.7.3 Design Choices for ER Conceptual Design
 
+![figure3.14](asset/figure314.png "Summary of the notation for ER diagram")
+
 ### 3.7.4 Alternative Notations for ER Diagrams
 
 ## 3.8 Example of Other Notation: UML Class Diagrams

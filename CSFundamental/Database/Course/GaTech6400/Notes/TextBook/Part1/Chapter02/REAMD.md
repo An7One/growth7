@@ -63,6 +63,24 @@ The process of transforming requests and results between levels are called <b>ma
 
 ### 2.5.4 Three-Tier and n-Tier Architectures for Web Applications
 
+<b>three-tier architecture</b> includes <i>Client</i>, <i>Application Server</i> or <i>Web Server</i>, and <i>Database Server</i>.
+
 ## 2.6 Classification of Database Management Systems
 
 ## 2.7 Summary
+
+data model
+
+<ul>
+    <li>High-level or conceptual data models (based on entities and relationships)</li>
+    <li>Low-level or physical data models</li>
+    <li>Representational or implementation data models (record-based, object-oriented)</li>
+</ul>
+
+three-schema DBMS architecture
+
+<ul>
+    <li>An internal schema describes the physical storage structure of the database</li>
+    <li>A conceptual schema is a high-level description of the whole database</li>
+    <li>External schemas describe the views of different user groups.</li>
+</ul>
