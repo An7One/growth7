@@ -133,7 +133,6 @@ The <b>OUTER UNION</b> operation was developed to take the union of tuples from 
 
 <b>tuple variables</b>
 
-
 ### 8.6.2 Expressions and Formulas in Tuple Relational Calculus
 
 ### 8.6.3 The Existential and Universal Quantifiers
