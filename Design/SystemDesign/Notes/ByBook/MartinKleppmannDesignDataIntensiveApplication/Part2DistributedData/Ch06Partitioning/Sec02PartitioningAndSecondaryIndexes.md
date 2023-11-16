@@ -1,7 +1,7 @@
 # Chapter 06 Partitioning
 
-## Section 02 Partitioning and Secondary Indexes
+## Section 02 Partitioning and Secondary Indices
 
-### Partitioning Secondary Indexes by Document
+### Partitioning Secondary Indices by Document
 
-### Partitioning Secondary Indexes by Term
+### Partitioning Secondary Indices by Term
