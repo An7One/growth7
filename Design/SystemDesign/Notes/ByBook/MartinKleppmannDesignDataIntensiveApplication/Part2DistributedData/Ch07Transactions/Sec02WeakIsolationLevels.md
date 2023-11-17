@@ -1,13 +1,13 @@
 # Chapter 07, Transactions
+
 ## Section 02, Weak Isolation Levels
 
 ### Read Committed
 
 The most basic level of transaction isolation, which makes two guarantees
-<ul>
-    <li>When reading from the database, you will only see data that has been committed (no dirty reads)</li>
-    <li>When writing to the database, you will only overwrite data that has been committed (no dirty writes)</li>
-</ul>
+
+1. When reading from the database, you will only see data that has been committed (no dirty reads)
+2. When writing to the database, you will only overwrite data that has been committed (no dirty writes)
 
 #### No dirty reads
 
@@ -21,11 +21,11 @@ Snapshot isolation is that each transaction reads from a consistent snapshot of 
 
 #### Implementing snapshot isolation
 
-A key principle of snapshot isolation is that <i>readers never block writers, and writers never block readers</i>.
+A key principle of snapshot isolation is that _readers never block writers, and writers never block readers_.
 
 #### Visibility rules for observing a consistent snapshot
 
-#### Indexes and snapshot isolation
+#### Indices nd snapshot isolation
 
 #### Repeatable read and naming confusion
 
@@ -53,7 +53,7 @@ it allows a write to happen only if the value has not been concurrently changed 
 
 #### Phantoms causing write skew
 
-This effect, where a write in one transaction changes the result of a search query in another transaction, is called a phantom.
+The effect, where a write in one transaction changes the result of a search query in another transaction, is called a _phantom_.
 
 Snapshot isolation avoids phantoms in read-only queries, but in read-write transactions, phantoms can lead to particularly tricky cases of write skew.
 

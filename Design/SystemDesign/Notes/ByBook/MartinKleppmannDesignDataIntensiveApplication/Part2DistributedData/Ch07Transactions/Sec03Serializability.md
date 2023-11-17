@@ -1,34 +1,43 @@
 # Chapter 07, Transactions
+
 ## Section 03, Serializability
 
-### Actual Serial Execution
+### Serializability
 
-#### Encapsulating transactions in stored procedures
+Most databases that provide serializability today use one of 3 techniques:
 
-#### Pros and cons of stored procedures
+1. literally executing transactions in a serial order
+2. two-phase locking
+3. optimistic concurrency control techniques such as serializable snapshot isolation
 
-#### Partitioning
+#### Actual Serial Execution
 
-#### Summary of serial execution
+##### Encapsulating transactions in stored procedures
 
-### Two-Phase Locking (2PL)
+##### Pros and cons of stored procedures
 
-#### Implementation of two-phase locking
+##### Paritioning
 
-#### Performance of two-phase locking
+##### Summary
 
-#### Predicate locks
+#### Two-Phase Locking (2PL)
 
-#### Index-range locks
+##### Implementation of two-phase locking
 
-### Serializable Snapshot Isolation (SSI)
+##### Performance of two-phase locking
 
-#### Pessimistic v.s. optimistic concurrency control
+##### Predicate locks
 
-#### Decisions based on an outdated premise
+##### Index-range locks
 
-#### Detecting stale MVCC reads
+#### Serializable Snapshot Isolation (SSI)
 
-#### Detecting writes that affect prior reads
+##### Pessimistic v.s. optimistic concurrency control
 
-#### Performance of serializable snapshot isolation
+##### Decisions based on an outdated premise
+
+##### Detecting stale MVCC reads
+
+##### Detecting writes that affect prior reads
+
+##### Performance of serializable snapshot isolation
