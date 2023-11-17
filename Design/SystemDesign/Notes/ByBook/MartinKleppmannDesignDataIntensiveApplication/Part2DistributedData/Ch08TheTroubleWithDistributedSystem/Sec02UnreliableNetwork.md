@@ -1,4 +1,5 @@
 # Chapter 08, The Trouble with Distributed Systems
+
 ## Section 02, Unreliable Network
 
 ### Network Faults in Practice

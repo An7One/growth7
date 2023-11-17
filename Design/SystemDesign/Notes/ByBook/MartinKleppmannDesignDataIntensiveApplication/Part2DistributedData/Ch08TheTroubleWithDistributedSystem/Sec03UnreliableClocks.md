@@ -1,4 +1,5 @@
 # Chapter 08, The Trouble with Distributed Systems
+
 ## Section 03, Unreliable Clocks
 
 ### Monotonic v.s. Time-of-Day Clocks

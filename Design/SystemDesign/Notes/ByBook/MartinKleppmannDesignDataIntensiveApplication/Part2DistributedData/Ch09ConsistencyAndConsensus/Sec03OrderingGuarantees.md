@@ -1,4 +1,5 @@
 # Chapter 09, Consistency and Consensus
+
 ## Section 02, Ordering Guarantees
 
 ### Ordering and Causality
