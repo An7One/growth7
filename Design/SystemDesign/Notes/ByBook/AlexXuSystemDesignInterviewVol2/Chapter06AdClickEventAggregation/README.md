@@ -1,0 +1,113 @@
+# Chapter 06, Ad Click Event Aggregation
+
+## Step 1, Understand the Problem and Establish Design Scope
+
+TODO
+
+## Step 2, Propose High-Level Design and Get Buy-In
+
+### Query API design
+
+### Data model
+
+#### Raw data
+
+#### Aggregated data
+
+#### Comparison
+
+### Choose the right database
+
+### High-level design
+
+#### Asyncrhonous processing
+
+#### Aggregation service
+
+##### Map node
+
+##### Aggregate node
+
+##### Reduce node
+
+### Main use cases
+
+#### Use case 1: aggregate the number of clicks
+
+#### Use case 2: return top N most clicked ads
+
+#### Use case 3: data filtering
+
+TODO
+
+## Step 3, Design Deep Dive
+
+### Streaming vs batching
+
+TODO: pros and cons
+
+#### Data recalculation
+
+#### Time
+
+The timestamp can be generated in two different places:
+
+- Event time: when ad ad click happens.
+- Processing time: referes to the system time of the aggregation machine that processes the click event.
+
+TODO: pros and cons
+
+### Aggregation window
+
+### Delivery guarantees
+
+#### Which delivery method shall we choose?
+
+### Data deduplication
+
+Two common sources:
+
+- Client-side
+- Server outage
+
+### Scale the system
+
+#### Scale the message queue
+
+##### Producer
+
+##### Consumer
+
+##### Broker
+
+###### Hashing key
+
+##### The number of partitions
+
+##### Topic physical sharding
+
+### Scale the aggregation service
+
+Option
+
+- Allocate events with different *ad_id*s to different threads
+- Deploy aggregate service nodes on resource providers like Apache Haddop YARN.
+  - One can think of this approach as utilizing multi-processing.
+
+### Scale the Database
+
+#### Hotspot issue
+
+A shard or service that received much more data than the others is called a hotspot.
+
+### Fault tolerance
+
+### Data monitoring and correctness
+
+#### Continuous monitoring
+
+#### Reconcillation
+
+### Alternative design
+
+## Step 4, Wrap up
