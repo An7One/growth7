@@ -20,3 +20,30 @@
 #### The need for multi-object transactions
 
 #### Handling errors and aborts
+
+## (<-correct?) Weak Isolation Levels
+
+### Read Commiteed
+
+It makes 2 guarantees:
+
+- when reading from the database, one will only see data that has been committed (no dirty reads).
+- when writing to the database, one will only overwirte data that has been committed (no dirty writes).
+
+#### No dirty reads
+
+Transactions running at the _read committed_ isolation level must prevent dirty reads. This means that any write by a transaction only becomes visible to others when that transation commits (and then all of tis writes become visible at once).
+
+#### No dirty writes
+
+#### Implementing read committed
+
+### Snapshot Isolation and Repeatable Read
+
+### Serializability
+
+### Two-Phase Locking (2PL)
+
+### Serializable Snapshot Isolation (SSI)
+
+## Summary

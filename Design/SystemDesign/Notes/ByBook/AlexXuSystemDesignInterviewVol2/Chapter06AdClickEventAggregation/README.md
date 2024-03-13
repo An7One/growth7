@@ -106,7 +106,15 @@ A shard or service that received much more data than the others is called a hots
 
 #### Continuous monitoring
 
-#### Reconcillation
+Metrics to monitor:
+
+- Latency
+- Message queue size
+- System resources on aggregation nodes
+
+#### Reconciliation
+
+Reconciliation means comparing different sets of data in order to ensure data integrity.
 
 ### Alternative design
 
