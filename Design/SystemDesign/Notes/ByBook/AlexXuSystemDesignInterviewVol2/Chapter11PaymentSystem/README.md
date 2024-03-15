@@ -10,6 +10,35 @@
 
 ## Step 2 - Propose High-Level Design and Get Buy-In
 
+2 steps to reflect how money flows:
+
+1. Pay-in flow
+2. Pay-out flow
+
+### Pay-in flow
+
+#### Payment Service
+
+#### Payment Executor
+
+#### Payment Service Provider (PSP)
+
+#### Card Scheme
+
+#### Ledger
+
+#### Wallet
+
+#### API for the Payment Service
+
+#### The Data Model for the Payment Service
+
+#### Double-entry Ledger System
+
+#### Hosted Payment Page
+
+### Pay-out flow
+
 ## Step 3 - Design Deep Dive
 
 ### PSP Integration
