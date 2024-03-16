@@ -6,7 +6,11 @@
 
 ### Functional Requirement
 
+TODO
+
 ### Non-Functional Requirement
+
+TODO
 
 ### Feature
 
@@ -17,6 +21,8 @@
 - Push Notification
 
 ### Estimation
+
+TODO
 
 ## Step 2 - Prepare High-Level Design and Get Buy-In
 
