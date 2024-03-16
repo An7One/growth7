@@ -1,42 +1,62 @@
-# Chapter 06, Ad Click Event Aggregation
+# Chapter 06. Ad Click Event Aggregation
 
-## Step 1, Understand the Problem and Establish Design Scope
+## Step 1 - Understand the Problem and Establish Design Scope
 
 TODO
 
-## Step 2, Propose High-Level Design and Get Buy-In
+### Functional Requirement
 
-### Query API design
+### Non-functional Requirement
 
-### Data model
+### Back-of-the-envelope Estimation
 
-#### Raw data
+## Step 2 - Propose High-Level Design and Get Buy-In
 
-#### Aggregated data
+### Query API Design
+
+### Data Model
+
+#### Raw Data
+
+#### Aggregated Data
 
 #### Comparison
 
-### Choose the right database
+### Choose the Right Database
 
-### High-level design
+Canssandra
 
-#### Asyncrhonous processing
+InfluxDB
 
-#### Aggregation service
+Amazon S3 with Columnar data formats, like _ORC_, _Parquet_, or _AVRO_.
 
-##### Map node
+### High-Level Design
 
-##### Aggregate node
+#### Asyncrhonous Processing
 
-##### Reduce node
+TODO
 
-### Main use cases
+#### Aggregation Service
 
-#### Use case 1: aggregate the number of clicks
+TODO
 
-#### Use case 2: return top N most clicked ads
+##### Map Reduce
 
-#### Use case 3: data filtering
+###### Computing Unit
+
+####### Map Node
+
+####### Aggregate Node
+
+####### Reduce Node
+
+###### Main Use Cases
+
+##### Use case 1: to aggregate the number of clicks
+
+##### Use case 2: to return top N most clicked ads
+
+##### Use case 3: data filtering
 
 TODO
 
@@ -46,33 +66,50 @@ TODO
 
 TODO: pros and cons
 
-#### Data recalculation
+Lambda Architecture
+
+Kappa Architecture
+
+#### Data Recalculation
 
 #### Time
 
-The timestamp can be generated in two different places:
+The timestamp can be generated in 2 different places:
 
 - Event time: when ad ad click happens.
 - Processing time: referes to the system time of the aggregation machine that processes the click event.
 
 TODO: pros and cons
 
-### Aggregation window
+### Aggregation Window
+
+4 types of window functions:
+
+1. tumbling, also called fixed, window
+2. hopping window
+3. sliding window
+4. session window
 
 ### Delivery guarantees
 
+Message queues such as Kafka usually provide 3 delivery semantics:
+
+1. at-most once
+2. at-least once
+3. exactly once
+
 #### Which delivery method shall we choose?
 
-### Data deduplication
+### Data Deduplication
 
-Two common sources:
+2 common sources:
 
 - Client-side
 - Server outage
 
-### Scale the system
+### Scale the System
 
-#### Scale the message queue
+#### Scale the Message Queue
 
 ##### Producer
 
@@ -80,13 +117,13 @@ Two common sources:
 
 ##### Broker
 
-###### Hashing key
+###### Hashing Key
 
-##### The number of partitions
+###### The Number of Partition
 
-##### Topic physical sharding
+###### Topic Physical Sharding
 
-### Scale the aggregation service
+### Scale the Aggregation Service
 
 Option
 
@@ -96,15 +133,15 @@ Option
 
 ### Scale the Database
 
-#### Hotspot issue
+#### Hotspot Issue
 
-A shard or service that received much more data than the others is called a hotspot.
+A shard or service that receives much more data than the others is called a hotspot.
 
-### Fault tolerance
+### Fault Tolerance
 
-### Data monitoring and correctness
+### Data Monitoring and Correctness
 
-#### Continuous monitoring
+#### Continuous Monitoring
 
 Metrics to monitor:
 
@@ -116,6 +153,6 @@ Metrics to monitor:
 
 Reconciliation means comparing different sets of data in order to ensure data integrity.
 
-### Alternative design
+### Alternative Design
 
 ## Step 4, Wrap up
