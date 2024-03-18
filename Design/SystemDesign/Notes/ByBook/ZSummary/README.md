@@ -16,7 +16,8 @@ Hotkey Problem
 
 Different Databases
 
-- Canssandra, S3, etc
+- Canssandra, InfluxDB, S3, etc
 - Object, File, BLOB, etc.
 - SQL vs NoSQL
 - Key-value Store
+- Retry

@@ -6,13 +6,27 @@ TODO
 
 ### Functional Requirement
 
+- Aggregate the number of clicks of _ad_id_ in the last _M_ minutes
+- Return the top 100 most clicked _ad_id_ every minute
+- Support aggregation filtering by different attributes
+- Dataset volume is at _Facebook_ or _Google_ scale
+
 ### Non-functional Requirement
 
-### Back-of-the-envelope Estimation
+- Correctness of the aggregation result is important as the data is used for RTB and ads billing
+- Property handle delayed or duplicate events
+- Robustness. The system is expected to be resilient to partial failure.
+- Latency requirement. End-to-end latency should be a few minutes at most.
+
+### Estimation
+
+TODO
 
 ## Step 2 - Propose High-Level Design and Get Buy-In
 
 ### Query API Design
+
+TODO
 
 ### Data Model
 
@@ -30,7 +44,7 @@ InfluxDB
 
 Amazon S3 with Columnar data formats, like _ORC_, _Parquet_, or _AVRO_.
 
-### High-Level Design
+### High-level Design
 
 #### Asyncrhonous Processing
 
