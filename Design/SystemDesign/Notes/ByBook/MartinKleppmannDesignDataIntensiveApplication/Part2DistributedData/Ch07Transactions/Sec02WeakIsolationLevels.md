@@ -1,4 +1,4 @@
-# Chapter 07, Transactions
+# Chapter 07: Transactions
 
 ## Section 02, Weak Isolation Levels
 
@@ -35,13 +35,18 @@ Snapshot isolation is a useful isolation level, especially for read-only transac
 
 #### Atomic write operations
 
+- Atomic operations are usually implemented by taking an exclusive lock on the object when it is read so that no other transaction can read it until the update has been applied. This technique is sometimes known as _cursor stability_.
+- Another option is to simply force all atomic operations to be executed on a single thread.
+
 #### Explicit locking
+
+TODO
 
 #### Automatically detecting lost updates
 
 #### Compare-and-set
 
-it allows a write to happen only if the value has not been concurrently changed by someone else.
+It allows a write to happen **only** if the value has not been concurrently changed by someone else.
 
 #### Conflict resolution and replication
 

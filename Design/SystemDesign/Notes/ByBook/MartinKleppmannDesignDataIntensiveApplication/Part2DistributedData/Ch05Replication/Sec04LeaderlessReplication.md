@@ -1,4 +1,4 @@
-# Chapter 05, Replication
+# Chapter 05: Replication
 
 ## Section 4, Leaderless Replication
 
@@ -30,7 +30,11 @@ To catch up on the writes missed, two mechanisms are often used in Dynamo-style 
 
 ### Detecting Concurrent Writes
 
-#### Last write wins(discarding concurrent writes)
+#### Last write wins (discarding concurrent writes)
+
+To declare that each replica needs only to store the most "recent" value and allow "older" values to be overwritten and discarded.
+
+TODO
 
 #### The "happens-before" relationship and concurrency
 

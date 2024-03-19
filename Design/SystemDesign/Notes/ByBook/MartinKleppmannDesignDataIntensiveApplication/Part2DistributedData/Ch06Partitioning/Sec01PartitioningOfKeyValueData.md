@@ -1,4 +1,4 @@
-# Chapter 06 Partitioning
+# Chapter 06: Partitioning
 
 ## Section 01 Partitioning of Key-Value Data
 
@@ -13,3 +13,5 @@ A partition with disproportionately high load is called a _hot spot_.
 Consistant hashing is a way of evenly distributing load across an internet-wide system of caches such as a content delivery network (CDN).
 
 ### Skewed Workloads and Relieving Hot Spots
+
+TODO

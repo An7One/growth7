@@ -1,3 +1,3 @@
-# Chapter 07, Transaction
+# Chapter 07: Transaction
 
-## Section 00, Introduction
+## Section 0, Introduction

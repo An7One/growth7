@@ -1,4 +1,4 @@
-# Chapter 09, Consistency and Consensus
+# Chapter 09: Consistency and Consensus
 
 ## Section 02, Linearizability
 

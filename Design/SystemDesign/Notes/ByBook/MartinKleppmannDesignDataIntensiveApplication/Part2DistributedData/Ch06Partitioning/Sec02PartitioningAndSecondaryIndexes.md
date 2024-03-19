@@ -1,4 +1,4 @@
-# Chapter 06 Partitioning
+# Chapter 06: Partitioning
 
 ## Section 02 Partitioning and Secondary Indices
 
