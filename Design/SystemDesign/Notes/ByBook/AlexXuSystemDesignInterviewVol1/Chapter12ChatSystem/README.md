@@ -95,13 +95,11 @@ TODO: DB Schema
 
 #### Online Presence
 
-##### User Login
-
-##### User Logout
-
-##### User Disconnection
-
-##### Online Status Fanout
+- User Login
+- User Logout
+- User Disconnection
+  - heartbeat
+- Online Status Fanout
 
 ## Step 4 - Wrap Up
 
