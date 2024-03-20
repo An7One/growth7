@@ -1,6 +1,6 @@
 # Chapter 07: Transactions
 
-## Section 02, Weak Isolation Levels
+## Section 02. Weak Isolation Levels
 
 ### Read Committed
 
@@ -44,11 +44,15 @@ TODO
 
 #### Automatically detecting lost updates
 
+TODO
+
 #### Compare-and-set
 
 It allows a write to happen **only** if the value has not been concurrently changed by someone else.
 
 #### Conflict resolution and replication
+
+TODO
 
 ### Write Skew and Phantoms
 

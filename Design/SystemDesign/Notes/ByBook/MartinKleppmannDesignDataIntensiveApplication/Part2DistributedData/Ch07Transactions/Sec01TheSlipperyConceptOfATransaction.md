@@ -1,4 +1,4 @@
-# Chapter 07, Transactions
+# Chapter 07: Transactions
 
 ## The Slippery Concept of a Transaction
 
@@ -21,29 +21,33 @@
 
 #### Handling errors and aborts
 
-## (<-correct?) Weak Isolation Levels
+### Weak Isolation Levels
 
-### Read Commiteed
+#### Read Committed
 
 It makes 2 guarantees:
 
-- when reading from the database, one will only see data that has been committed (no dirty reads).
-- when writing to the database, one will only overwirte data that has been committed (no dirty writes).
+- when reading from the database, one will only see data that has been committed (no *dirty read*s).
+- when writing to the database, one will only overwirte data that has been committed (no *dirty write*s).
 
-#### No dirty reads
+##### No dirty reads
 
 Transactions running at the _read committed_ isolation level must prevent dirty reads. This means that any write by a transaction only becomes visible to others when that transation commits (and then all of tis writes become visible at once).
 
-#### No dirty writes
+##### No dirty writes
 
-#### Implementing read committed
+When the earlier write is a part of a transaction that has not yet committed, the later write overwrites the uncommitted value: this is called a _dirty write_.
 
-### Snapshot Isolation and Repeatable Read
+##### Implementing read committed
 
-### Serializability
+#### Snapshot Isolation and Repeatable Read
 
-### Two-Phase Locking (2PL)
+_Snapshot isolation_ is the idea that each transaction reads from a _consistent snapshot_ of the database, i.e., the transation sees all the data that was committed in the database at the start of the transaction. Even if the data is subsequently changed by another transaction, each transaction sees only the old data from that particular point in time.
 
-### Serializable Snapshot Isolation (SSI)
+#### Serializability
+
+#### Two-Phase Locking (2PL)
+
+#### Serializable Snapshot Isolation (SSI)
 
 ## Summary
