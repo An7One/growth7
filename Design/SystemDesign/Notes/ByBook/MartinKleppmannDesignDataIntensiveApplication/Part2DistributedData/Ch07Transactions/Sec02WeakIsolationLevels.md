@@ -1,19 +1,27 @@
 # Chapter 07: Transactions
 
-## Section 02. Weak Isolation Levels
+## Section 02 Weak Isolation Level
 
 ### Read Committed
 
-The most basic level of transaction isolation, which makes two guarantees
+The most basic level of transaction isolation, which makes 2 guarantees
 
-1. When reading from the database, you will only see data that has been committed (no dirty reads)
+1. When reading from the database, one will only see data that has been committed (no dirty reads)
 2. When writing to the database, you will only overwrite data that has been committed (no dirty writes)
 
 #### No dirty reads
 
+That one transaction can see the uncommitted data in another transaction is called a _dirty read_.
+
 #### No dirty writes
 
+That an ealier write, which is part of a transaction, has not yet commited, but the latter write overwrites an uncommitted value, is called a _dirty write_.
+
 #### Implementing read committed
+
+TODO - to prevent dirty reads
+
+TODO - to prevent dirty writes
 
 ### Snapshot Isolation and Repeatable Read
 

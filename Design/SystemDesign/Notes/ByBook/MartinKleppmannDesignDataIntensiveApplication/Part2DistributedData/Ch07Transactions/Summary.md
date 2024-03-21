@@ -1,4 +1,4 @@
-# Chapter07, Transactions
+# Chapter07: Transactions
 
 ## Summary
 
@@ -41,6 +41,8 @@ SQL Isolation Levels (From strong to weak) - [Wiki](<https://en.wikipedia.org/wi
 | Read Committed                             |             |
 | Read Uncommitted                           |             |
 
-### Reference
+## Reference
 
-[[Soul Orbit](http://r12f.com/posts/summarizing-consistency-model)] 一致性模型一句话总结
+一致性模型一句话总结 - [Soul Orbit](http://r12f.com/posts/summarizing-consistency-model)
+
+No Dirty Reads: Everything you always wanted to know about SQL isolation levels (but were too afraid to ask) - [source](https://www.cockroachlabs.com/blog/sql-isolation-levels-explained/)
