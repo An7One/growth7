@@ -1,6 +1,6 @@
 # Chapter 06: Partitioning
 
-## Section 03, Rebalancing Partitions
+## Section 03 Rebalancing Partitions
 
 ### Strategies for Rebalancing
 

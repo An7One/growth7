@@ -8,6 +8,8 @@ A partition with disproportionately high load is called a _hot spot_.
 
 ### Partitioning by Key Range
 
+TODO - pros vs cons
+
 ### Partitioning by Hash of Key
 
 Consistant hashing is a way of evenly distributing load across an internet-wide system of caches such as a content delivery network (CDN).
