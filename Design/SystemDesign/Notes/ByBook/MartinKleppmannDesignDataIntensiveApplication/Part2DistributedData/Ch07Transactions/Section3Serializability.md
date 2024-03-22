@@ -1,6 +1,6 @@
 # Chapter 07: Transactions
 
-## Section 03. Serializability
+## Section 3 Serializability
 
 Most databases that provide serializability today use one of 3 techniques:
 

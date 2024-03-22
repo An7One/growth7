@@ -1,6 +1,6 @@
-# Chapter 08, The Trouble with Distributed Systems
+# Chapter 08: The Trouble with Distributed Systems
 
-## Section 02, Unreliable Network
+## Section 2 Unreliable Network
 
 ### Network Faults in Practice
 

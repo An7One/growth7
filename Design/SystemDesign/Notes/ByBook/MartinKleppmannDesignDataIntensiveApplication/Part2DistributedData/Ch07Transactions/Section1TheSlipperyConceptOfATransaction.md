@@ -1,6 +1,6 @@
 # Chapter 07: Transactions
 
-## The Slippery Concept of a Transaction
+## Section 1 The Slippery Concept of a Transaction
 
 ### The Meaning of ACID
 

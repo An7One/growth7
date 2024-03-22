@@ -1,6 +1,6 @@
 # Chapter 07: Transactions
 
-## Section 02 Weak Isolation Level
+## Section 2 Weak Isolation Level
 
 ### Read Committed
 

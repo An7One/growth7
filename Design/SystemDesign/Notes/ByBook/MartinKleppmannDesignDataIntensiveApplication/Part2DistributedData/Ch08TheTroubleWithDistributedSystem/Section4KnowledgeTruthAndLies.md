@@ -1,6 +1,6 @@
-# Chapter 08, The Trouble with Distributed Systems
+# Chapter 08: The Trouble with Distributed Systems
 
-## Section 04, Knowledge, Truth, and Lies
+## Section 4 Knowledge, Truth, and Lies
 
 ### The Truth Defined by the Majority
 
