@@ -33,13 +33,19 @@ A key principle of snapshot isolation is that _readers never block writers, and 
 
 #### Visibility rules for observing a consistent snapshot
 
+TODO - 4 rules
+
 #### Indices nd snapshot isolation
+
+TODO
 
 #### Repeatable read and naming confusion
 
 Snapshot isolation is a useful isolation level, especially for read-only transactions.
 
 ### Preventing Lost Updates
+
+TODO
 
 #### Atomic write operations
 
@@ -64,9 +70,15 @@ TODO
 
 ### Write Skew and Phantoms
 
+TODO
+
 #### Characterizing write skew
 
+TODO
+
 #### More examples of write skew
+
+TODO
 
 #### Phantoms causing write skew
 
@@ -74,6 +86,10 @@ The effect, where a write in one transaction changes the result of a search quer
 
 Snapshot isolation avoids phantoms in read-only queries, but in read-write transactions, phantoms can lead to particularly tricky cases of write skew.
 
+TODO
+
 #### Materializing conflicts
 
-it takes a phantom and turns it into a lock conflict on a concrete set of rows that exist in the database.
+It takes a phantom and turns it into a lock conflict on a concrete set of rows that exist in the database.
+
+TODO
