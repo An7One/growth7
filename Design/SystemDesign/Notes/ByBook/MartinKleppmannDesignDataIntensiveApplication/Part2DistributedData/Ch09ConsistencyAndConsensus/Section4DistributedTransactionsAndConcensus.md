@@ -1,6 +1,11 @@
-# Chapter 09, Consistency and Consensus
+# Chapter 9: Consistency and Consensus
 
-## Section 03, Distributed Transactions and Consensus
+## Section 4 Distributed Transactions and Consensus
+
+There are a number of situations in which it is important for nodes to agree.
+
+- Leader election
+- Atomic commit
 
 ### Atomic Commit and Two-Phase Commit (2PC)
 
@@ -8,11 +13,23 @@
 
 #### Introduction to two-phase commit
 
+Instead of a single commit request, as with a single-node transaction, the commit/abort proces in 2PC is split into two phases, hence the name.
+
+TODO - coordinator
+
+TODO - main steps
+
 #### A system of promises
+
+TODO - main steps
 
 #### Coordinator failure
 
+TODO
+
 #### Three-phase commit
+
+TODO
 
 ### Distributed Transactions in Practice
 
