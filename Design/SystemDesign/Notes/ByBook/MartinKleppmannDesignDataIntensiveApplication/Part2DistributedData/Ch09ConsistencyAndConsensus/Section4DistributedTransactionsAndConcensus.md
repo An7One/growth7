@@ -33,15 +33,27 @@ TODO
 
 ### Distributed Transactions in Practice
 
+TODO
+
 #### Exactly-once message processing
+
+TODO
 
 #### XA transactions
 
+TODO
+
 #### Holding locks while in doubt
+
+TODO
 
 #### Recovering from coordinator failure
 
+TODO
+
 #### Limitations of distributed transactions
+
+TODO
 
 ### Fault-Tolerant Consensus
 
