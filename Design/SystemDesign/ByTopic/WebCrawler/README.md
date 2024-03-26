@@ -104,6 +104,24 @@ TODO
 
 TODO
 
+### DFS vs BFS
+
+TODO
+
+### URL Frontier Deep Dive
+
+#### Politeness
+
+#### Priority
+
+#### Freshness
+
+#### Storage for URL Fronter
+
+### HTML Downloader Deep Dive
+
+TODO
+
 ## Reference
 
 Web Crawler System Design - [EnjoyAlgorithms](https://www.enjoyalgorithms.com/blog/web-crawler/)
