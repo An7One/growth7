@@ -36,7 +36,7 @@ TODO
 
 ## Step 2 - Propose High-level Design and Get Buy-in
 
-TODO - graph, with the flow
+TODO - diagram, with the flow
 
 ### Seed URLs
 
@@ -116,13 +116,15 @@ TODO
 
 #### Freshness
 
-#### Storage for URL Fronter
+#### Storage for URL Frontier
 
 ### HTML Downloader Deep Dive
 
 TODO
 
 ## Reference
+
+8: Design a Web Crawler | Systems Design Interview Questions With Ex-Google SWE - [JordanHasNoLife, Youtube](https://youtu.be/MdWvMX4J-Vc?si=NtitNGqQd3llhQkT)
 
 Web Crawler System Design - [EnjoyAlgorithms](https://www.enjoyalgorithms.com/blog/web-crawler/)
 
