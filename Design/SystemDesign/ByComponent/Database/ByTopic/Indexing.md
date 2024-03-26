@@ -1,5 +1,5 @@
 # Database
 
-## Summary
+## Indexing
 
 TODO
