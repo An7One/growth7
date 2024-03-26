@@ -1,6 +1,6 @@
 # Database
 
-## Partition
+## Partitioning
 
 TODO:
 how to partition?
