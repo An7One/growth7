@@ -28,8 +28,8 @@ TODO
 
 ## Reference
 
-TinyURL/PasteBin Design Deep Dive with Google SWE! | Systems Design Interview Question 1 - [JordanHasNoLife, Youtube](https://youtu.be/f5Z7sbkwEwc?si=biarx2zoSUf96bqv)
+TinyURL/PasteBin Design Deep Dive with Google SWE! | Systems Design Interview Question 1 - [Jordan has no life, Youtube](https://youtu.be/f5Z7sbkwEwc?si=biarx2zoSUf96bqv)
 
-1: TinyURL + PasteBin | Systems Design Interview Questions With Ex-Google SWE - [JordanHasNoLife, Youtube](https://youtu.be/5V6Lam8GZo4?si=CYe3iw_TNCiK-XoZ)
+1: TinyURL + PasteBin | Systems Design Interview Questions With Ex-Google SWE - [Jordan has no life, Youtube](https://youtu.be/5V6Lam8GZo4?si=CYe3iw_TNCiK-XoZ)
 
 系统设计(五) Design Tiny URL System - [古城算法, Youtube](https://youtu.be/Gz-kAjmr7M0?si=Td_ZEET4VWbMfkxF)
